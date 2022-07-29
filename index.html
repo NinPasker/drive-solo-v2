@@ -104,25 +104,57 @@
     </main>
 
     <footer>
-        <section>
-            <ul class="footerIcons">
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-car"><h4>Shop Brands</h4></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-briefcase"><h4>Jobs</h4></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fa-solid fa-calendar-check"><h4>Events</h4></i>
-                    </a>
-                </li>
-            </ul>
-        </section>
+
+        <section class="footerIconsSection" id="footerIconsSection">
+            <div class="wrapper">
+                <ul class="footerIcons">
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-car"><h4>Shop Brands</h4></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-briefcase"><h4>Jobs</h4></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-solid fa-calendar-check"><h4>Events</h4></i>
+                        </a>
+                    </li>
+                </ul> <!-- END .footerIcons -->
+            </div> <!-- END .wrapper -->
+        </section> <!-- END .footerIconsSection-->
+
+        <section class="stayUpdated" id="stayUpdated">
+            <div class="wrapper">
+                <h5>Stay Updated</h5>
+                <p>Subscribe to our newsletter to stay updated</p>
+                <form action="#">
+                    <label for="email"></label>
+                    <input type="email" name="email" id="email" required placeholder="email address">
+                    <button class="subscribe">Subscribe</button>
+                </form>
+
+                <aside class="footerContact" id="footerContact">
+                    <h5>Contact</h5>
+                    <p>info@email.com | 123 - 456 - 7890 <br>123 some road, Toronto, ON <br>A5A 5A5, Canada</p>
+
+                    <nav class="footerNav">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </nav> <!-- END .footerNav -->
+                </aside> <!-- END .footerContact -->
+            </div> <!-- END .wrapper -->
+        </section> <!-- END .stayUpdated-->
+
+        <p class="copyright">Copyright ©️ 2019 HackerYou</p>
+
     </footer>
 </body>
 </html>
