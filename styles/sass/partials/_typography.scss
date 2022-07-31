@@ -11,3 +11,11 @@ $bodyFooterFont: 'Roboto', sans-serif;
 
 // Setting General Styles for all words/letters on the page
 
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}

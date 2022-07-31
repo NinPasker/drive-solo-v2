@@ -1,0 +1,16 @@
+// nav styling
+
+.navBar .wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+}
+
+.navMenu li {
+    display: inline-block;
+}
+
+.navMenu {
+    padding: 0;
+    margin: 0;
+}

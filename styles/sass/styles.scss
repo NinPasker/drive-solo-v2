@@ -1,2 +1,10 @@
+// general styling
+
 @import './partials/setup';
 @import './partials/typography';
+
+// layout styling
+
+@import './partials/nav';
+@import './partials/body';
+@import './partials/header'
