@@ -425,14 +425,21 @@ header {
 }
 .highlights .wrapper h3 {
   margin: 0;
+  line-height: 21px;
 }
 
 .highlightsContentContainer {
   margin-left: 30px;
   max-width: 70%;
+  position: relative;
 }
 .highlightsContentContainer p {
-  margin-top: 10px;
+  margin-top: 15px;
+  text-align: start;
+}
+.highlightsContentContainer .readMore {
+  position: absolute;
+  bottom: 0;
 }
 
 .readMore {
@@ -444,4 +451,15 @@ header {
   text-transform: uppercase;
   font-size: 29px;
   font-size: 1.45rem;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.readMore:focus {
+  color: #BA0621;
+  background-color: #FFF;
+}
+.readMore:hover {
+  color: #BA0621;
+  background-color: #FFF;
 }
