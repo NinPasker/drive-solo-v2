@@ -35,3 +35,11 @@ h5 {
 .navMenu {
     font-family: $navFont;
 }
+
+.titleContent p {
+    font-family: $textFont;
+    color: $secondaryTextColor;
+    margin-top: 20px;
+    margin-bottom: 280px;
+    @include fontSize(31);
+}

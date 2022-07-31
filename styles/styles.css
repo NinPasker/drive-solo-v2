@@ -276,6 +276,15 @@ h5 {
   font-family: "Catamaran", sans-serif;
 }
 
+.titleContent p {
+  font-family: "Lato", sans-serif;
+  color: #FFF;
+  margin-top: 20px;
+  margin-bottom: 280px;
+  font-size: 31px;
+  font-size: 1.55rem;
+}
+
 .navBar .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
