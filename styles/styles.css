@@ -272,17 +272,10 @@ h5 {
   text-transform: uppercase;
 }
 
-.navMenu {
-  font-family: "Catamaran", sans-serif;
-}
-
-.titleContent p {
-  font-family: "Lato", sans-serif;
-  color: #FFF;
-  margin-top: 20px;
-  margin-bottom: 280px;
-  font-size: 31px;
-  font-size: 1.55rem;
+h3 {
+  font-size: 42px;
+  font-size: 2.1rem;
+  margin-top: 70px;
 }
 
 .navBar .wrapper {
@@ -313,10 +306,19 @@ h5 {
   font-size: 0.9rem;
 }
 
+.navMenu {
+  font-family: "Catamaran", sans-serif;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 1400px;
   width: 90%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
 
 header {
@@ -365,4 +367,34 @@ header {
   display: -ms-flexbox;
   display: flex;
   line-height: 40px;
+}
+
+.titleContent p {
+  font-family: "Lato", sans-serif;
+  color: #FFF;
+  margin-top: 20px;
+  margin-bottom: 280px;
+  font-size: 31px;
+  font-size: 1.55rem;
+}
+
+.newsArticles h3 {
+  text-align: center;
+}
+
+.newsArticleGallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.newsArticleGallery li {
+  width: 30%;
+  margin: 70px 0;
 }

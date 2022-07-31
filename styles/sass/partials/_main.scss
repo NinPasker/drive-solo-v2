@@ -1,0 +1,18 @@
+// main section styling
+
+.newsArticles h3 {
+    text-align: center;
+}
+
+.newsArticleGallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+
+    & li {
+        width: 30%;
+        margin: 70px 0;
+    }
+}

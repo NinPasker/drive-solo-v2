@@ -32,14 +32,8 @@ h5 {
     text-transform: uppercase;
 }
 
-.navMenu {
-    font-family: $navFont;
+h3 {
+    @include fontSize(42);
+    margin-top: 70px;
 }
 
-.titleContent p {
-    font-family: $textFont;
-    color: $secondaryTextColor;
-    margin-top: 20px;
-    margin-bottom: 280px;
-    @include fontSize(31);
-}

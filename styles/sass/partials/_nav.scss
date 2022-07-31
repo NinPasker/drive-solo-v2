@@ -24,3 +24,8 @@
 .navBar {
     @include fontSize(18);
 }
+
+.navMenu {
+    font-family: $navFont;
+}
+
