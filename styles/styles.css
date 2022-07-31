@@ -259,6 +259,7 @@ li {
 a {
   color: #fff;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 h1,
@@ -268,6 +269,11 @@ h4,
 h5 {
   margin: 0;
   font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+}
+
+.navMenu {
+  font-family: "Catamaran", sans-serif;
 }
 
 .navBar .wrapper {
@@ -277,10 +283,15 @@ h5 {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 25px;
 }
 
 .navMenu li {
   display: inline-block;
+  padding-right: 20px;
+}
+.navMenu li:last-child {
+  padding-right: 0;
 }
 
 .navMenu {
@@ -288,9 +299,14 @@ h5 {
   margin: 0;
 }
 
+.navBar {
+  font-size: 18px;
+  font-size: 0.9rem;
+}
+
 .wrapper {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 90%;
 }
 
@@ -299,4 +315,45 @@ header {
   min-height: 100vh;
   background-position: center;
   background-size: cover;
+}
+
+.driveSoloTitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: inherit;
+}
+
+.socialNav {
+  position: absolute;
+  right: 30px;
+  bottom: 60px;
+}
+
+.socialIcons {
+  text-align: center;
+}
+.socialIcons li {
+  padding: 5px 0;
+  font-size: 24px;
+  font-size: 1.2rem;
+}
+
+.titleContent h2 {
+  color: #CC1D36;
+  font-size: 116.2px;
+  font-size: 5.81rem;
+}
+.titleContent h2 span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 40px;
 }

@@ -3,13 +3,24 @@
 .navBar .wrapper {
     display: flex;
     justify-content: space-between;
+    padding-top: 25px;
 }
 
 .navMenu li {
     display: inline-block;
+    padding-right: 20px;
+
+    &:last-child {
+            padding-right: 0;
+        }
 }
+
 
 .navMenu {
     padding: 0;
     margin: 0;
+}
+
+.navBar {
+    @include fontSize(18);
 }

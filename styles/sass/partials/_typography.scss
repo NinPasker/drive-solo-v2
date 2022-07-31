@@ -8,6 +8,7 @@ $contactSectionColor: #6C0918;
 $headingFont: 'Kanit', sans-serif;
 $navFont: 'Catamaran', sans-serif;
 $bodyFooterFont: 'Roboto', sans-serif;
+$textFont: 'Lato', sans-serif;
 
 // Setting General Styles for all words/letters on the page
 
@@ -18,6 +19,7 @@ li {
 a {
     color: #fff;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 h1,
@@ -27,4 +29,9 @@ h4,
 h5 {
     margin: 0;
     font-family: $headingFont;
+    text-transform: uppercase;
+}
+
+.navMenu {
+    font-family: $navFont;
 }

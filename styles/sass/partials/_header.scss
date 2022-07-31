@@ -6,3 +6,36 @@ header {
     background-position: center;
     background-size: cover;
 }
+
+.driveSoloTitle {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    min-height: inherit;
+}
+
+.socialNav {
+    position: absolute;
+    right: 30px;
+    bottom: 60px;
+}
+
+.socialIcons {
+    text-align: center;
+
+    & li {
+        padding: 5px 0;
+        @include fontSize(24);
+    }
+}
+
+.titleContent h2 {
+    color: $iconColor;
+    @include fontSize(116.2);
+
+    & span {
+        display: flex;
+        line-height: 40px;
+    }
+
+}
