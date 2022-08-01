@@ -66,23 +66,16 @@
 
 // new models styling
 
-.newModels,
-.nightDrive {
+.contentContainer {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
 }
 
-.newModels {
-    margin-top: 120px;
+.contentWrapper {
+    width: 40%;
 }
 
-.newModelsImgContainer {
+.imgContainer {
     width: 50%;
 }
-
-.newModelsContentContainer {
-    width: 50%;
-
-    & .wrapper {
-        margin-right: 0;
-    }
-}   
