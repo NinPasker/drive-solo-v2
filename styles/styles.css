@@ -525,9 +525,33 @@ header {
           align-items: center;
   padding: 0;
 }
+.footerIcons i {
+  color: #BA0621;
+  font-size: 50px;
+  font-size: 2.5rem;
+}
+.footerIcons i h4 {
+  color: #FFF;
+  font-size: 30px;
+  font-size: 1.5rem;
+}
 
 .footerIconsWrapper {
   margin: 0 auto;
   max-width: 2000px;
   width: 90%;
+}
+
+.stayUpdated {
+  background-color: #6C0918;
+}
+
+.copyright {
+  background-color: #0B0101;
+  margin: 0;
+  text-align: center;
+  color: #FFF;
+  padding: 10px 0;
+  font-size: 18px;
+  font-size: 0.9rem;
 }

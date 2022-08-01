@@ -16,10 +16,33 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 0;
+
+    & i {
+        color: $primaryColor;
+        @include fontSize(50);
+    }
+
+    & i h4 {
+        color: $secondaryTextColor;
+        @include fontSize(30);
+    }
 }
 
 .footerIconsWrapper {
     margin: 0 auto;
     max-width: 2000px;
     width: 90%;
+}
+
+.stayUpdated {
+    background-color: $contactSectionColor;
+}
+
+.copyright {
+    background-color: $primaryTextColor;
+    margin: 0;
+    text-align: center;
+    color: $secondaryTextColor;
+    padding: 10px 0;
+    @include fontSize(18);
 }
