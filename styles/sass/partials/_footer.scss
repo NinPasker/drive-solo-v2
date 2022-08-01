@@ -41,18 +41,28 @@
 
     & h5 {
         @include fontSize(28);
+        line-height: 25px;
     }
 
     & p {
         @include fontSize(18);
         margin: 0;
         line-height: 18px;
+        padding-top: 10px;
     }
+}
+
+.contactInfoContainer {
+    padding-right: 100px;
 }
 
 .footerNav {
     font-family: $headingFont;
     text-align: end;
+
+    & li {
+        padding-bottom: 5px;
+    }
 }
 
 .subscribeWrapper,
@@ -63,10 +73,46 @@
 
 .subscribeContainer {
     max-width: 50%;
+
+    & p {
+        margin-bottom: 10px;
+    }
 }
 
 .contactContainer {
     max-width: 40%;
+}
+
+input#email {
+    padding: 5px 0 5px 20px;
+    border: none;
+    width: 350px;
+}
+
+.subscribe {
+    border: none;
+    padding: 5px 20px;
+    background-color: $primaryTextColor;
+    color: $secondaryTextColor;
+    font-family: $headingFont;
+    text-transform: uppercase;
+    transition: .3s;
+    cursor: pointer;
+    display: inline-block;
+
+    &:focus {
+    color: $primaryTextColor;
+    background-color: $secondaryTextColor;
+    }
+
+    &:hover {
+    color: $primaryTextColor;
+    background-color: $secondaryTextColor;
+    }
+}
+
+form {
+    display: flex;
 }
 
 .copyright {

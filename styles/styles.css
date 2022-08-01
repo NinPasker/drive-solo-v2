@@ -550,17 +550,26 @@ header {
 .stayUpdated h5 {
   font-size: 28px;
   font-size: 1.4rem;
+  line-height: 25px;
 }
 .stayUpdated p {
   font-size: 18px;
   font-size: 0.9rem;
   margin: 0;
   line-height: 18px;
+  padding-top: 10px;
+}
+
+.contactInfoContainer {
+  padding-right: 100px;
 }
 
 .footerNav {
   font-family: "Kanit", sans-serif;
   text-align: end;
+}
+.footerNav li {
+  padding-bottom: 5px;
 }
 
 .subscribeWrapper,
@@ -576,9 +585,45 @@ header {
 .subscribeContainer {
   max-width: 50%;
 }
+.subscribeContainer p {
+  margin-bottom: 10px;
+}
 
 .contactContainer {
   max-width: 40%;
+}
+
+input#email {
+  padding: 5px 0 5px 20px;
+  border: none;
+  width: 350px;
+}
+
+.subscribe {
+  border: none;
+  padding: 5px 20px;
+  background-color: #0B0101;
+  color: #FFF;
+  font-family: "Kanit", sans-serif;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  cursor: pointer;
+  display: inline-block;
+}
+.subscribe:focus {
+  color: #0B0101;
+  background-color: #FFF;
+}
+.subscribe:hover {
+  color: #0B0101;
+  background-color: #FFF;
+}
+
+form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .copyright {
