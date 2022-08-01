@@ -282,6 +282,7 @@ h3,
 h4,
 h5 {
   line-height: 43px;
+  letter-spacing: 1px;
 }
 
 .navBar .wrapper {
@@ -318,7 +319,7 @@ h5 {
 
 .wrapper {
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 2000px;
   width: 90%;
 }
 
@@ -462,6 +463,10 @@ header {
   background-color: #FFF;
 }
 
+.newModels {
+  margin-top: 70px;
+}
+
 .contentContainer {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -475,6 +480,12 @@ header {
 
 .contentWrapper {
   width: 40%;
+}
+.contentWrapper span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 20px;
 }
 
 .imgContainer {
