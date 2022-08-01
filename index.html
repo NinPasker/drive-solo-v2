@@ -1,3 +1,5 @@
+<!-- Developed by Nin Pasker - https://www.linkedin.com/in/nin-pasker-developer/ -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +13,23 @@
 </head>
 <body>
     <a href="#mainContent" class="skipLink">Skip to the main content.</a>
+
+    <div class="menu-wrap"> <!-- Hamburger Menu for Mobile -->
+        <input type="checkbox" class="toggle">
+        <div class="hamburger"><div></div></div> <!-- END .hamburger -->
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div> 
+        </div> <!-- menu -->
+    </div> <!-- END .menu-wrap-->
 
     <header>
         
@@ -160,14 +179,14 @@
                         <input type="email" name="email" id="email" required placeholder="email address">
                         <button class="subscribe">Subscribe</button>
                     </form>
-                </div>
+                </div> <!-- END .subscribeContainer -->
 
                 <div class="contactContianer">
                     <aside class="footerContact" id="footerContact">
                         <div class="contactInfoContainer">
                             <h5>Contact</h5>
                             <p>info@email.com | 123 - 456 - 7890 <br>123 some road, Toronto, ON <br>A5A 5A5, Canada</p>
-                        </div>
+                        </div> <!-- END .contactInfoContainer -->
 
                         <nav class="footerNav">
                             <ul>
@@ -178,8 +197,8 @@
                             </ul>
                         </nav> <!-- END .footerNav -->
                     </aside> <!-- END .footerContact -->
-                </div>
-            </div> <!-- END .wrapper -->
+                </div> <!-- END .contactContainer -->
+            </div> <!-- END .wrapper/.subscribeWrapper -->
         </section> <!-- END .stayUpdated-->
 
         <p class="copyright">Copyright © 2019 HackerYou</p>
