@@ -1,2 +1,38 @@
 // mobile styling
 
+// navbar breakpoints
+
+.navBar,
+.socialNav .socialIcons {
+    @include breakpoint(medium) {
+        visibility: hidden;
+    }
+}
+
+.menu-wrap {
+    @include breakpoint(medium) {
+        visibility: visible;
+    }
+}
+
+// highlights breakpoints
+
+.highlights .wrapper {
+
+    @include breakpoint (medium) {
+        flex-direction: column;
+
+        & .highlightsImgContainer img {
+            width: 100%;
+            height: 80vh;
+            display: block;
+            margin: 0 auto;
+            object-fit: cover;
+
+        }
+
+        & h3 {
+            margin-top: 30px;
+        }
+    }
+}

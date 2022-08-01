@@ -641,6 +641,7 @@ form {
   top: 0;
   right: 0;
   z-index: 1;
+  visibility: hidden;
 }
 .menu-wrap .toggle {
   position: absolute;
@@ -675,7 +676,7 @@ form {
   position: relative;
   width: 100%;
   height: 2px;
-  background-color: #0B0101;
+  background-color: #FFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -799,4 +800,37 @@ form {
 .menu-wrap .menu > div > div > ul > li a {
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
+}
+
+@media (max-width: 1080px) {
+  .navBar,
+.socialNav .socialIcons {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1080px) {
+  .menu-wrap {
+    visibility: visible;
+  }
+}
+
+@media (max-width: 1080px) {
+  .highlights .wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .highlights .wrapper .highlightsImgContainer img {
+    width: 100%;
+    height: 80vh;
+    display: block;
+    margin: 0 auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .highlights .wrapper h3 {
+    margin-top: 30px;
+  }
 }
