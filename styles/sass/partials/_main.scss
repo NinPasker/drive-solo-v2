@@ -36,11 +36,6 @@
     max-width: 70%;
     position: relative;
 
-    & p {
-        margin-top: 15px;
-        text-align: start;
-    }
-
     & .readMore {
         position: absolute;
         bottom: 0;
@@ -68,3 +63,26 @@
         background-color: $secondaryTextColor;
     }
 }
+
+// new models styling
+
+.newModels,
+.nightDrive {
+    display: flex;
+}
+
+.newModels {
+    margin-top: 120px;
+}
+
+.newModelsImgContainer {
+    width: 50%;
+}
+
+.newModelsContentContainer {
+    width: 50%;
+
+    & .wrapper {
+        margin-right: 0;
+    }
+}   

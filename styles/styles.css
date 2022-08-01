@@ -333,6 +333,8 @@ body p {
   font-size: 1.45rem;
   line-height: 29px;
   font-weight: lighter;
+  margin-top: 15px;
+  text-align: start;
 }
 
 header {
@@ -433,10 +435,6 @@ header {
   max-width: 70%;
   position: relative;
 }
-.highlightsContentContainer p {
-  margin-top: 15px;
-  text-align: start;
-}
 .highlightsContentContainer .readMore {
   position: absolute;
   bottom: 0;
@@ -462,4 +460,26 @@ header {
 .readMore:hover {
   color: #BA0621;
   background-color: #FFF;
+}
+
+.newModels,
+.nightDrive {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.newModels {
+  margin-top: 120px;
+}
+
+.newModelsImgContainer {
+  width: 50%;
+}
+
+.newModelsContentContainer {
+  width: 50%;
+}
+.newModelsContentContainer .wrapper {
+  margin-right: 0;
 }
