@@ -641,7 +641,6 @@ form {
   top: 0;
   right: 0;
   z-index: 1;
-  visibility: hidden;
 }
 .menu-wrap .toggle {
   position: absolute;
@@ -779,6 +778,17 @@ form {
   opacity: 0;
   -webkit-transition: opacity 0.4s ease;
   transition: opacity 0.4s ease;
+}
+.menu-wrap .menu > div > div ul.socialIcons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.menu-wrap .menu > div > div ul.socialIcons li {
+  padding: 10px 20px;
 }
 .menu-wrap .menu > div > div > ul > li {
   font-family: "Kanit", sans-serif;
