@@ -396,7 +396,7 @@ header {
   font-family: "Lato", sans-serif;
   color: #FFF;
   margin-top: 20px;
-  margin-bottom: 280px;
+  margin-bottom: 130px;
   font-size: 31px;
   font-size: 1.55rem;
 }
@@ -544,6 +544,41 @@ header {
 
 .stayUpdated {
   background-color: #6C0918;
+  padding: 80px 0;
+  color: #FFF;
+}
+.stayUpdated h5 {
+  font-size: 28px;
+  font-size: 1.4rem;
+}
+.stayUpdated p {
+  font-size: 18px;
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 18px;
+}
+
+.footerNav {
+  font-family: "Kanit", sans-serif;
+  text-align: end;
+}
+
+.subscribeWrapper,
+.footerContact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.subscribeContainer {
+  max-width: 50%;
+}
+
+.contactContainer {
+  max-width: 40%;
 }
 
 .copyright {

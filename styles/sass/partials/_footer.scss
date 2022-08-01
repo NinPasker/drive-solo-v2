@@ -36,6 +36,37 @@
 
 .stayUpdated {
     background-color: $contactSectionColor;
+    padding: 80px 0;
+    color: $secondaryTextColor;
+
+    & h5 {
+        @include fontSize(28);
+    }
+
+    & p {
+        @include fontSize(18);
+        margin: 0;
+        line-height: 18px;
+    }
+}
+
+.footerNav {
+    font-family: $headingFont;
+    text-align: end;
+}
+
+.subscribeWrapper,
+.footerContact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribeContainer {
+    max-width: 50%;
+}
+
+.contactContainer {
+    max-width: 40%;
 }
 
 .copyright {
