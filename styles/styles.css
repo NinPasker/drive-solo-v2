@@ -916,3 +916,36 @@ form {
     margin: 30px 0;
   }
 }
+
+@media (max-width: 1080px) {
+  .subscribeWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-width: 1080px) {
+  .subscribeContainer {
+    max-width: 100%;
+    margin-bottom: 30px;
+  }
+  .subscribeContainer h5 {
+    text-align: center;
+  }
+  .subscribeContainer p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 1080px) {
+  form {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
