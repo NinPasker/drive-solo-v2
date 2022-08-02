@@ -849,6 +849,7 @@ form {
   }
   .highlights .wrapper h3 {
     margin: 60px 0;
+    line-height: 28px;
   }
 }
 
@@ -972,4 +973,33 @@ form {
     background-repeat: no-repeat;
     background-position: 43%;
   }
+}
+
+@media (max-width: 500px) {
+  form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  input#email {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .subscribe {
+    padding: 10px;
+    margin-top: 10px;
+  }
+}
+
+.contactInfoContainer {
+  padding-right: 0px;
 }
