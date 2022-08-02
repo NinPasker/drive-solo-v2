@@ -1046,3 +1046,15 @@ form {
 .contactInfoContainer {
   padding-right: 0px;
 }
+
+@media (max-width: 500px) {
+  .car3 {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .newsArticleGallery li {
+    width: 48%;
+  }
+}

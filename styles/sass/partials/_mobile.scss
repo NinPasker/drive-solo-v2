@@ -198,3 +198,15 @@ input#email {
 .contactInfoContainer {
     padding-right: 0px;
 }
+
+.car3 {
+    @include breakpoint (small) {
+        display: none;
+    }
+}
+
+.newsArticleGallery li {
+    @include breakpoint (small) {
+        width: 48%;
+    }
+}
