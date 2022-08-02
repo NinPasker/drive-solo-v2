@@ -11,41 +11,47 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <script src="https://kit.fontawesome.com/842291e0cc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script>
+        function homeFunction() {
+            toggle.checked = false;
+        }
+    </script>
 </head>
 <body>
     <a href="#mainContent" class="skipLink">Skip to the main content.</a>
 
     <div class="menu-wrap"> <!-- Hamburger Menu for Mobile -->
-        <input type="checkbox" class="toggle">
+        <input type="checkbox" class="toggle" id="toggle">
+
         <div class="hamburger"><div></div></div> <!-- END .hamburger -->
         <div class="menu">
             <div>
                 <div>
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Blog</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="#" onclick="homeFunction()">Home</a></li>
+                        <li><a href="#" onclick="homeFunction()">About</a></li>
+                        <li><a href="#" onclick="homeFunction()">Blog</a></li>
+                        <li><a href="#" onclick="homeFunction()">Contact</a></li>
                     </ul>
 
                     <ul class="socialIcons">
                         <li>
-                            <a href="#">
+                            <a href="#" onclick="homeFunction()">
                                 <i class="fa-brands fa-instagram"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" onclick="homeFunction()">
                                 <i class="fa-brands fa-facebook-f"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" onclick="homeFunction()">
                                 <i class="fa-brands fa-snapchat"></i>
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" onclick="homeFunction()">
                                 <i class="fa-brands fa-twitter"></i>
                             </a>
                         </li>
@@ -55,16 +61,26 @@
         </div> <!-- menu -->
     </div> <!-- END .menu-wrap-->
 
+            <!-- <script>
+
+                var toggle = document.getElementById("toggle");
+
+                function close() {
+                    toggle.checked = false;
+                }
+
+            </script> -->
+
     <header>
         
         <nav class="navBar">
             <div class="wrapper">
-                <a href="#" class="driveSoloLogo">
+                <a href="#" onclick="homeFunction()" class="driveSoloLogo">
                     <h1>Drive Solo</h1>
                 </a>
             
                 <ul class="navMenu">
-                    <li><a href="#">Home</a></li>
+                    <li><a href="#" onclick="homeFunction()">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>
@@ -214,7 +230,7 @@
 
                         <nav class="footerNav">
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><a href="#" onclick="homeFunction()">Home</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Blog</a></li>
                                 <li><a href="#">Contact</a></li>
