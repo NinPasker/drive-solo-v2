@@ -28,7 +28,7 @@
     @include breakpoint (medium) {
         @include fontSize(25);
         margin-top: 5px;
-        margin-bottom: 180px;
+        margin-bottom: 140px;
     }
 }
 
@@ -169,7 +169,8 @@ form {
 header {
     @include breakpoint (small) {
         background-repeat: no-repeat;
-        background-position: 43%;
+        background-position: 41%;
+        min-height: 91vh;
     }
 }
 

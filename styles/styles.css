@@ -871,7 +871,7 @@ form {
     font-size: 25px;
     font-size: 1.25rem;
     margin-top: 5px;
-    margin-bottom: 180px;
+    margin-bottom: 140px;
   }
 }
 
@@ -1014,7 +1014,8 @@ form {
 @media (max-width: 500px) {
   header {
     background-repeat: no-repeat;
-    background-position: 43%;
+    background-position: 41%;
+    min-height: 91vh;
   }
 }
 
