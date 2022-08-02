@@ -816,6 +816,23 @@ form {
 }
 
 @media (max-width: 1080px) {
+  .titleContent h2 {
+    font-size: 80px;
+    font-size: 4rem;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 1080px) {
+  .titleContent p {
+    font-size: 25px;
+    font-size: 1.25rem;
+    margin-top: 5px;
+    margin-bottom: 180px;
+  }
+}
+
+@media (max-width: 1080px) {
   .highlights .wrapper {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -947,5 +964,12 @@ form {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    background-repeat: no-repeat;
+    background-position: 43%;
   }
 }

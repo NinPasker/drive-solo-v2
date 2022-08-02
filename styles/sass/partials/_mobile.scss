@@ -1,4 +1,4 @@
-// mobile styling
+// mobile (tablet) styling
 
 // navbar breakpoints
 
@@ -12,6 +12,23 @@
 .menu-wrap {
     @include breakpoint(medium) {
         visibility: visible;
+    }
+}
+
+// header breakpoints
+
+.titleContent h2 {
+    @include breakpoint (medium) {
+        @include fontSize(80);
+        line-height: 60px;
+    }
+}
+
+.titleContent p {
+    @include breakpoint (medium) {
+        @include fontSize(25);
+        margin-top: 5px;
+        margin-bottom: 180px;
     }
 }
 
@@ -143,6 +160,15 @@
 form {
     @include breakpoint (medium) {
         justify-content: center;
+    }
+}
+
+// mobile (phone) breakpoints 
+
+header {
+    @include breakpoint (small) {
+        background-repeat: no-repeat;
+        background-position: 43%;
     }
 }
 
