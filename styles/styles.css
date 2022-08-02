@@ -397,6 +397,14 @@ header {
   font-size: 24px;
   font-size: 1.2rem;
 }
+.socialIcons a {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 10px;
+}
+.socialIcons a:hover, .socialIcons a:focus {
+  color: #CC1D36;
+}
 
 .titleContent h2 {
   color: #CC1D36;
@@ -555,6 +563,13 @@ header {
   font-size: 30px;
   font-size: 1.5rem;
 }
+.footerIcons a h4 {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+.footerIcons a:hover h4, .footerIcons a:focus h4 {
+  color: #CC1D36;
+}
 
 .footerIconsWrapper {
   margin: 0 auto;
@@ -590,6 +605,14 @@ header {
 }
 .footerNav li {
   padding-bottom: 5px;
+}
+.footerNav a {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  padding: 10px;
+}
+.footerNav a:focus, .footerNav a:hover {
+  color: #0B0101;
 }
 
 .subscribeWrapper,

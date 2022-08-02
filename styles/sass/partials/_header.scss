@@ -27,6 +27,16 @@ header {
         padding: 5px 0;
         @include fontSize(24);
     }
+
+    & a {
+        transition: 0.4s;
+        padding: 10px;
+    }
+
+    & a:hover,
+    & a:focus {
+        color: $iconColor;
+    }
 }
 
 .titleContent h2 {

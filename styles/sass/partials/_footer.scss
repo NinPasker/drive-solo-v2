@@ -26,6 +26,15 @@
         color: $secondaryTextColor;
         @include fontSize(30);
     }
+
+    & a h4 {
+        transition: 0.4s;
+    }
+
+    & a:hover h4,
+    & a:focus h4 {
+        color: $iconColor;
+    }
 }
 
 .footerIconsWrapper {
@@ -62,6 +71,16 @@
 
     & li {
         padding-bottom: 5px;
+    }
+
+    & a {
+        transition: 0.4s;
+        padding: 10px;
+    }
+
+    & a:focus,
+    & a:hover {
+        color: $primaryTextColor;
     }
 }
 
