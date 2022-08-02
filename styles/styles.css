@@ -321,6 +321,26 @@ h5 {
   font-family: "Catamaran", sans-serif;
 }
 
+.navMenu a,
+.driveSoloLogo {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.navMenu a {
+  padding: 10px;
+}
+
+.driveSoloLogo:focus,
+.driveSoloLogo:hover {
+  color: #CC1D36;
+}
+
+.navMenu a:focus,
+.navMenu a:hover {
+  color: #CC1D36;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 2000px;

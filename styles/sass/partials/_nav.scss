@@ -29,3 +29,21 @@
     font-family: $navFont;
 }
 
+.navMenu a,
+.driveSoloLogo {
+    transition: 0.4s;
+}
+
+.navMenu a {
+    padding: 10px;
+}
+
+.driveSoloLogo:focus,
+.driveSoloLogo:hover {
+    color: $iconColor;
+}
+
+.navMenu a:focus,
+.navMenu a:hover {
+    color: $iconColor;
+}
