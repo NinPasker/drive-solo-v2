@@ -236,6 +236,10 @@ html {
   overflow: hidden;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .skipLink {
   background-color: #FFF;
   color: #000;
