@@ -142,3 +142,19 @@ form {
     padding: 10px 0;
     @include fontSize(18);
 }
+
+// .copyright styles
+
+.copyright a {
+    text-transform: none;
+    transition: 0.3s;
+
+    &:hover,
+    &focus {
+        color: $iconColor;
+    }
+}
+
+.copyright br {
+    display: none;
+}

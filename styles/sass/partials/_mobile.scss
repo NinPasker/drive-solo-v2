@@ -211,3 +211,15 @@ input#email {
         width: 48%;
     }
 }
+
+.copyright br {
+    @include breakpoint (small) {
+        display: block;
+    }
+}
+
+.copyright span {
+    @include breakpoint (small) {
+        display: none;
+    }
+}

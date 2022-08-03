@@ -679,6 +679,19 @@ form {
   font-size: 0.9rem;
 }
 
+.copyright a {
+  text-transform: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.copyright a:hover, .copyright afocus {
+  color: #CC1D36;
+}
+
+.copyright br {
+  display: none;
+}
+
 .menu-wrap {
   position: fixed;
   top: 0;
@@ -1057,5 +1070,17 @@ form {
 @media (max-width: 500px) {
   .newsArticleGallery li {
     width: 48%;
+  }
+}
+
+@media (max-width: 500px) {
+  .copyright br {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .copyright span {
+    display: none;
   }
 }
