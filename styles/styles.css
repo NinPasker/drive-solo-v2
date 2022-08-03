@@ -736,7 +736,7 @@ form {
   position: relative;
   width: 100%;
   height: 2px;
-  background-color: #FFF;
+  background-color: lightgray;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -860,6 +860,9 @@ form {
 .menu-wrap .menu > div > div > ul > li a {
   -webkit-transition: color 0.4s ease;
   transition: color 0.4s ease;
+}
+.menu-wrap .menu > div > div > ul > li a:hover, .menu-wrap .menu > div > div > ul > li a:focus {
+  color: #CC1D36;
 }
 
 @media (max-width: 1080px) {
